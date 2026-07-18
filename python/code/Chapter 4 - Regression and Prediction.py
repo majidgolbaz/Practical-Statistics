@@ -29,7 +29,7 @@ from dmba import stepwise_selection
 from dmba import AIC_score
 
 try:
-    import common
+    import common as common
     DATA = common.dataDirectory()
 except ImportError:
     DATA = Path().resolve() / 'data'

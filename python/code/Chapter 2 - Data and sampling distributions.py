@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pylab as plt
 
 try:
-    import common
+    import common as common
     DATA = common.dataDirectory()
 except ImportError:
     DATA = Path().resolve() / 'data'
